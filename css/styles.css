@@ -1,0 +1,164 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #212121;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* -----------HEADER------------- */
+.logo-web {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
+.logo-Stu {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.header-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.header-item:hover,
+.header-item:focus {
+  color: #2196f3;
+}
+
+.header-mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+}
+
+.header-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+/* -----------HERO------------- */
+.hero {
+  background-color: #212121;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36x;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.hero-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+/* -----------SCILL------------- */
+
+.skill-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.skill-after-title {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* -----------REFERRAL------------- */
+
+.referral-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+/* -----------TEAM------------- */
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17x;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.team-item-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.team-item-after-title {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* -----------FOOTER------------- */
+
+.footer {
+  background-color: #9d4141;
+}
+.footer-addres-city {
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer-addres-contact {
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-addres-contact:hover,
+.footer-addres-contact:focus {
+  color: #2196f3;
+}
