@@ -1,3 +1,9 @@
+:root {
+  --main-color-blue: #2196f3;
+  --main-color-grey: #757575;
+  --main-color-white: #ffffff;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   color: #212121;
@@ -18,7 +24,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--main-color-blue);
 }
 
 .logo-Stu {
@@ -35,12 +41,12 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: inherit;
 }
 
 .header-item:hover,
 .header-item:focus {
-  color: #2196f3;
+  color: var(--main-color-blue);
 }
 
 .header-mail {
@@ -48,7 +54,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color: var(--main-color-blue);
 }
 
 .header-tel {
@@ -56,7 +62,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--main-color-grey);
 }
 
 /* -----------HERO------------- */
@@ -70,7 +76,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--main-color-white);
 }
 
 .hero-btn {
@@ -81,7 +87,8 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--main-color-white);
+  background-color: var(--main-color-blue);
 }
 
 /* -----------SCILL------------- */
@@ -92,13 +99,13 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
 }
+
 .skill-after-title {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--main-color-grey);
 }
 
 /* -----------REFERRAL------------- */
@@ -109,7 +116,6 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
 }
 
 /* -----------TEAM------------- */
@@ -120,7 +126,6 @@ body {
   line-height: 1.17x;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
 }
 
 .team-item-title {
@@ -129,14 +134,14 @@ body {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
 }
+
 .team-item-after-title {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--main-color-grey);
 }
 
 /* -----------FOOTER------------- */
@@ -148,7 +153,7 @@ body {
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--main-color-white);
 }
 
 .footer-addres-contact {
@@ -160,5 +165,35 @@ body {
 
 .footer-addres-contact:hover,
 .footer-addres-contact:focus {
-  color: #2196f3;
+  color: var(--main-color-blue);
+}
+
+/* -----------PORTFOLIO.html------------- */
+
+.portfolio {
+}
+
+.portfolio-list-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-color-white);
+  background-color: var(--main-color-blue);
+}
+
+.portfolio-list-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-list-after-title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--main-color-grey);
 }
