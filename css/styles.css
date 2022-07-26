@@ -7,6 +7,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #212121;
+  background-color: #e5e5e5;
 }
 
 .list {
@@ -18,6 +19,11 @@ body {
 }
 
 /* -----------HEADER------------- */
+
+.header {
+  background-color: var(--main-color-white);
+}
+
 .logo-web {
   font-family: 'Raleway';
   font-weight: 700;
@@ -27,7 +33,7 @@ body {
   color: var(--main-color-blue);
 }
 
-.logo-Stu {
+.logo-Stu-header {
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
@@ -49,6 +55,10 @@ body {
   color: var(--main-color-blue);
 }
 
+.choice {
+  color: var(--main-color-blue);
+}
+
 .header-mail {
   font-weight: 500;
   font-size: 14px;
@@ -67,7 +77,7 @@ body {
 
 /* -----------HERO------------- */
 .hero {
-  background-color: #212121;
+  background-color: #2f303a;
 }
 .hero-title {
   font-weight: 900;
@@ -89,6 +99,11 @@ body {
   letter-spacing: 0.06em;
   color: var(--main-color-white);
   background-color: var(--main-color-blue);
+}
+
+.hero-btn:hover,
+.hero-btn:focus{
+  background-color: #188ce8;
 }
 
 /* -----------SCILL------------- */
@@ -134,6 +149,7 @@ body {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+  background: var(--main-color-white);
 }
 
 .team-item-after-title {
@@ -142,13 +158,24 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-color-grey);
+  background: var(--main-color-white);
 }
 
 /* -----------FOOTER------------- */
 
 .footer {
-  background-color: #9d4141;
+  background-color: #2f303a;
 }
+
+.logo-Stu-footer {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--main-color-white);
+}
+
 .footer-addres-city {
   font-size: 14px;
   line-height: 1.17;
@@ -170,8 +197,6 @@ body {
 
 /* -----------PORTFOLIO.html------------- */
 
-.portfolio {
-}
 
 .portfolio-list-btn {
   font-weight: 500;
@@ -180,6 +205,10 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-color-white);
+  background-color: #F5F4FA;
+}
+
+.portfolio-list-btn:hover {
   background-color: var(--main-color-blue);
 }
 
@@ -188,6 +217,7 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  background-color: var(--main-color-white);
 }
 
 .portfolio-list-after-title {
@@ -196,4 +226,5 @@ body {
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--main-color-grey);
+  background-color: var(--main-color-white);
 }
