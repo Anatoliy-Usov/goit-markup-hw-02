@@ -7,7 +7,6 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #212121;
-  background-color: #e5e5e5;
 }
 
 .list {
@@ -24,21 +23,19 @@ body {
   background-color: var(--main-color-white);
 }
 
-.logo-web {
+.logo-base {
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+}
+
+.logo-web {
   color: var(--main-color-blue);
 }
 
 .logo-Stu-header {
-  font-family: 'Raleway';
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
   color: #000000;
 }
 
@@ -64,7 +61,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--main-color-blue);
+  color: var(--main-color-grey);
 }
 
 .header-tel {
@@ -73,6 +70,13 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-color-grey);
+}
+
+.header-mail:hover,
+.header-mail:focus,
+.header-tel:hover,
+.header-tel:focus {
+  color: var(--main-color-blue);
 }
 
 /* -----------HERO------------- */
@@ -102,7 +106,7 @@ body {
 }
 
 .hero-btn:hover,
-.hero-btn:focus{
+.hero-btn:focus {
   background-color: #188ce8;
 }
 
@@ -134,6 +138,10 @@ body {
 }
 
 /* -----------TEAM------------- */
+
+.team {
+  background-color: #f5f4fa;
+}
 
 .team-title {
   font-weight: 700;
@@ -168,12 +176,11 @@ body {
 }
 
 .logo-Stu-footer {
-  font-family: 'Raleway';
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--main-color-white);
+}
+
+.footer-addres {
+  font-style: normal;
 }
 
 .footer-addres-city {
@@ -197,19 +204,23 @@ body {
 
 /* -----------PORTFOLIO.html------------- */
 
-
 .portfolio-list-btn {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--main-color-white);
-  background-color: #F5F4FA;
+  color: #212121;
+  background-color: #f5f4fa;
 }
 
-.portfolio-list-btn:hover {
+.portfolio-list-btn:hover,
+.portfolio-list-btn:focus {
   background-color: var(--main-color-blue);
+  color: var(--main-color-white);
+}
+
+.portfolio-pre-title {
 }
 
 .portfolio-list-title {
@@ -217,6 +228,7 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  color: #212121;
   background-color: var(--main-color-white);
 }
 
