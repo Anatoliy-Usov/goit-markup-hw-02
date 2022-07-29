@@ -143,6 +143,10 @@ body {
   background-color: #f5f4fa;
 }
 
+.team-item {
+  background: var(--main-color-white);
+}
+
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -157,7 +161,7 @@ body {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  background: var(--main-color-white);
+  /* background: var(--main-color-white); */
 }
 
 .team-item-after-title {
@@ -165,8 +169,7 @@ body {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--main-color-grey);
-  background: var(--main-color-white);
+  /* color: var(--main-color-grey); */
 }
 
 /* -----------FOOTER------------- */
